@@ -1,0 +1,23 @@
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #E5E5E5;
+}
+
+main {
+	max-width: 700px;
+	width: 100%;
+	margin: auto;
+  margin-top: 5%;
+	padding: 50px;
+}
+
+input{
+  margin: 5% 0 0 30%;
+  width: 300px;
+  background: blanchedalmond;
+  font-size: 30px;
+}
