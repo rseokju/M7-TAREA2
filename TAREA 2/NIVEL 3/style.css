@@ -8,16 +8,18 @@ body {
 }
 
 main {
-	max-width: 700px;
-	width: 100%;
-	margin: auto;
-  margin-top: 5%;
+  border: 1px solid;
+	max-width: 500px;
+  position: absolute;
+  left: calc(50% - 250px);
+  top: calc(50% - 205px);
 	padding: 50px;
+  background-color: coral;
 }
 
 input{
-  margin: 5% 0 0 30%;
-  width: 300px;
+  margin: 0 0 10px 0px;
+  width: 400px;
   background: blanchedalmond;
   font-size: 30px;
 }

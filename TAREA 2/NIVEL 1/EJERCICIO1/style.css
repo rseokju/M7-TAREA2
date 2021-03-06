@@ -3,8 +3,18 @@
 }
 
 input{
-  margin: 10% 0 0 30%;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: calc(50% - 21px);
   width: 300px;
   background: blanchedalmond;
   font-size: 30px;
+}
+
+p{
+  position: absolute;
+  left: calc(50% - 19.5px);
+  top: calc(50% + 20px);
+  font-size: 25px;
+  font-weight: 500;
 }

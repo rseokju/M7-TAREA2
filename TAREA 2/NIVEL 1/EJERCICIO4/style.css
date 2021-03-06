@@ -3,7 +3,9 @@
 }
 
 input{
-  margin: 10% 0 0 30%;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: calc(50% - 21px);
   width: 300px;
   background: blanchedalmond;
   font-size: 30px;
