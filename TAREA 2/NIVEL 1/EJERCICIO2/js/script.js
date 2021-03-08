@@ -7,19 +7,7 @@ function miFun() {
   let i;
   for (i = 0; i < nombre[0].length; i++) {
     nombre_[i] = nombre[0].substring(i, i + 1).replace(',', '');
-    if (nombre_[i] == vocal[0]) {
-      text += `He encontrado la VOCAL : ${nombre_[i]}\n`;
-      text_ += `He encontrado la VOCAL : ${nombre_[i]}<br>`;
-    } else if (nombre_[i] == vocal[1]) {
-      text += `He encontrado la VOCAL : ${nombre_[i]}\n`;
-      text_ += `He encontrado la VOCAL : ${nombre_[i]}<br>`;
-    } else if (nombre_[i] == vocal[2]) {
-      text += `He encontrado la VOCAL : ${nombre_[i]}\n`;
-      text_ += `He encontrado la VOCAL : ${nombre_[i]}<br>`;
-    } else if (nombre_[i] == vocal[3]) {
-      text += `He encontrado la VOCAL : ${nombre_[i]}\n`;
-      text_ += `He encontrado la VOCAL : ${nombre_[i]}<br>`;
-    } else if (nombre_[i] == vocal[4]) {
+    if (nombre_[i] == vocal[0] || nombre_[i] == vocal[1] || nombre_[i] == vocal[2] || nombre_[i] == vocal[3] || nombre_[i] == vocal[4]) {
       text += `He encontrado la VOCAL : ${nombre_[i]}\n`;
       text_ += `He encontrado la VOCAL : ${nombre_[i]}<br>`;
     } else if (!isNaN(nombre_[i])) {
@@ -33,5 +21,5 @@ function miFun() {
 
   alert(`${text}`);
   console.log(`${text}`);
-  document.getElementById("resultado").innerHTML = `${text_}`;
+  resultado.innerHTML = `${text_}`;
 }

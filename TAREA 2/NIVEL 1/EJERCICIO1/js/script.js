@@ -14,5 +14,5 @@ function miFun() {
 
   alert(`${text}`);
   console.log(`${text}`);
-  document.getElementById("resultado").innerHTML = `${text_}`;
+  resultado.innerHTML = `${text_}`;
 }
